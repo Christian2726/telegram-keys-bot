@@ -5,7 +5,7 @@ import threading
 from flask import Flask
 from aiogram import Bot, Dispatcher, executor, types
 
-TOKEN = os.environ.get("8339543175:AAE1XgQiAuDaW51fAh7q0rizN3Auf429Xio")  # <- variable de entorno en Render
+TOKEN = os.environ.get("TELEGRAM_TOKEN")  # <- variable de entorno en Render
 ADMIN_ID = 5593967825  # reemplaza solo si quieres otro admin
 
 if not TOKEN:
